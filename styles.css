@@ -1,0 +1,32 @@
+/* Style the container for each search result */
+.search-result {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Style the title of each search result */
+.search-result h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the snippet of each search result */
+.search-result p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style the link within each search result */
+.search-result a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.search-result a:hover {
+    text-decoration: underline;
+}

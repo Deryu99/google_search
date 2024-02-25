@@ -25,9 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['mycustomstring'] = 'You can add \'extra\' strings via the recipe file.';
-$string['mycustomstring2'] = 'Another string with {$a->some} placeholder.';
-$string['pluginname'] = 'Google Search block';
-$string['pluginname:addinstance'] = 'Add a new Google Search block';
-$string['pluginname:myaddinstance'] = 'Add a new Google Search block to the My dashboard';
+$string['pluginname'] = 'Google Search';
+$string['google_search:addinstance'] = 'Add a new Google Search block';
+$string['google_search:myaddinstance'] = 'Add a new Google Search block to the My dashboard';
 $string['privacy:metadata'] = 'Google Search block does not store any personal data';
+
+
+// For google custom search API
+$string['google_search_apikey'] = 'AIzaSyBBHp0O3-WUfzwQc0u9qFzgpJYsCsLukVw';
+$string['google_search_searchengineid'] = '53fce5df31b884201';
